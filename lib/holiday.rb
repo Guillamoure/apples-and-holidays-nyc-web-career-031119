@@ -90,7 +90,7 @@ def all_holidays_with_bbq(holiday_hash)
     i = 0
     while i < holiday.keys.length
       if holiday.values[i].include?("BBQ")
-        bbq_days << holiday.keys.to_s
+        bbq_days << holiday.keys.to_h
       end
     i+=1
     end
