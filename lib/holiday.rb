@@ -74,11 +74,11 @@ def all_supplies_in_holidays(holiday_hash)
         word.capitalize!
       end
     string_holiday = array_holiday.join(" ")
-      while n < holiday.values[n].length
+      
       
         string_supplies = supplies[n].join(", ")
         puts "  #{string_holiday}: #{string_supplies}" 
-        n+=1
+        
         
       end
       i+=1
